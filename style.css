@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+:root {
+  --ff-main: "Outfit", sans-serif;
+  --clr-white: hsl(0, 0%, 100%);
+  --clr-bg: hsl(212, 45%, 89%);
+  --clr-gray: hsl(220, 15%, 55%);
+  --clr-dark: hsl(218, 44%, 22%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--clr-bg);
+}
+
+body {
+  max-width: 1440px;
+  min-height: 100vh;
+  margin-inline: auto;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--ff-main);
+}
+
+img {
+  width: 100%;
+}
+
+.card {
+  background-color: var(--clr-white);
+  max-width: 20rem;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.card > * {
+  margin-bottom: 1rem;
+}
+
+.img img {
+  border-radius: 10px;
+}
+
+.content {
+  text-align: center;
+}
+
+.main-txt {
+  color: var(--clr-dark);
+  font-weight: 700;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.sub-txt {
+  color: var(--clr-gray);
+  max-width: 26ch;
+  margin-inline: auto;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  padding: 4px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
